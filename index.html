@@ -1,0 +1,857 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Weekly Update</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #f8f9fa;
+            color: #1a1a1a;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            color: #1a1a1a;
+        }
+        
+        .header .date-range {
+            font-size: 1.1em;
+            color: #666;
+            margin-bottom: 20px;
+        }
+        
+        .header .summary {
+            display: inline-flex;
+            gap: 30px;
+            background: white;
+            padding: 20px 40px;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        
+        .header .summary div {
+            text-align: center;
+        }
+        
+        .header .summary .number {
+            font-size: 2em;
+            font-weight: bold;
+            color: #1d9bf0;
+        }
+        
+        .header .summary .label {
+            color: #666;
+            font-size: 0.9em;
+        }
+        
+        .account-card {
+            background: white;
+            border-radius: 12px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        
+        .account-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 25px;
+            padding-bottom: 15px;
+            border-bottom: 2px solid #f0f0f0;
+        }
+        
+        .account-header h2 {
+            font-size: 1.5em;
+            color: #1a1a1a;
+        }
+        
+        .account-header .badge {
+            margin-left: auto;
+            background: #1d9bf0;
+            color: white;
+            padding: 6px 16px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            font-weight: 600;
+        }
+        
+        .tweet {
+            padding: 20px 0;
+            border-bottom: 1px solid #f0f0f0;
+        }
+        
+        .tweet:last-child {
+            border-bottom: none;
+        }
+        
+        .tweet-date {
+            color: #666;
+            font-size: 0.85em;
+            margin-bottom: 8px;
+        }
+        
+        .tweet-text {
+            font-size: 1.05em;
+            margin-bottom: 12px;
+            line-height: 1.7;
+        }
+        
+        .tweet-text a {
+            color: #1d9bf0;
+            text-decoration: none;
+        }
+        
+        .tweet-text a:hover {
+            text-decoration: underline;
+        }
+        
+        .tweet-meta {
+            display: flex;
+            gap: 20px;
+            color: #666;
+            font-size: 0.9em;
+            align-items: center;
+        }
+        
+        .tweet-link {
+            margin-left: auto;
+            color: #1d9bf0;
+            text-decoration: none;
+            font-size: 0.9em;
+        }
+        
+        .tweet-link:hover {
+            text-decoration: underline;
+        }
+        
+        .no-activity {
+            text-align: center;
+            padding: 60px 20px;
+            color: #666;
+        }
+        
+        .no-activity h2 {
+            margin-bottom: 10px;
+            color: #999;
+        }
+        
+        @media (max-width: 600px) {
+            .header h1 {
+                font-size: 1.8em;
+            }
+            
+            .header .summary {
+                flex-direction: column;
+                gap: 15px;
+            }
+            
+            .account-card {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>📊 Weekly Portfolio Update</h1>
+            <div class="date-range">Dec 02 - Dec 09, 2025</div>
+            <div class="summary">
+                <div>
+                    <div class="number">10</div>
+                    <div class="label">Active Companies</div>
+                </div>
+                <div>
+                    <div class="number">53</div>
+                    <div class="label">Total Updates</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="account-card">
+            <div class="account-header">
+                <h2>@ai_gbc</h2>
+                <div class="badge">17 updates</div>
+            </div>
+
+            <div class="tweet">
+                <div class="tweet-date">Tue Dec 24 15:14:59 +0000 2024</div>
+                <div class="tweet-text">☃︎𖢔𓍄𓃕𝕄𝕖𝕣𝕣𝕪 ℂ𝕙𝕣𝕚𝕤𝕥𝕞𝕒𝕤 𓍄𓃕︎𖢔☃︎✧*<br><br>　　*✧世界一かっこいい✧*<br>🎄大好きなグクサンタさん🐰❤️<br><br>毎日ジョングク大好きばかり言ってて<br>すみません🥹🩷<br>いつもありがとうございます(ᐡ ̳ᴗ ᴗ)ᴗ ᴗ ̳ᐡ)<br>皆様も素敵なクリスマスをお過ごし下さい🫂✨ https://t.co/0zOSPWLQ08</div>
+                <div class="tweet-meta">
+                    <span>❤️ 0</span>
+                    <span>🔄 8</span>
+                    <span>💬 7</span>
+                    <a href="https://twitter.com/ai_gbc/status/1871575304625611262" target="_blank" class="tweet-link">View on Twitter →</a>
+                </div>
+            </div>
+
+            <div class="tweet">
+                <div class="tweet-date">Tue Dec 09 06:33:29 +0000 2025</div>
+                <div class="tweet-text">aaaaaaaaaaaAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</div>
+                <div class="tweet-meta">
+                    <span>❤️ 0</span>
+                    <span>🔄 0</span>
+                    <span>💬 0</span>
+                    <a href="https://twitter.com/ai_gbc/status/1998279819189272973" target="_blank" class="tweet-link">View on Twitter →</a>
+                </div>
+            </div>
+
+            <div class="tweet">
+                <div class="tweet-date">Thu Oct 23 03:01:09 +0000 2025</div>
+                <div class="tweet-text">*⑅︎୨୧┈︎┈︎┈︎┈︎┈︎┈︎┈︎୨୧⑅︎*<br><br>            🎀( °꒫° )？<br><br>*⑅︎୨୧┈︎┈︎┈︎┈︎┈︎┈︎┈︎୨୧⑅︎*<br><br>#AIart https://t.co/4tcvt0pA9z</div>
+                <div class="tweet-meta">
+                    <span>❤️ 0</span>
+                    <span>🔄 75</span>
+                    <span>💬 28</span>
+                    <a href="https://twitter.com/ai_gbc/status/1981194152873546150" target="_blank" class="tweet-link">View on Twitter →</a>
+                </div>
+            </div>
+
+            <div class="tweet">
+                <div class="tweet-date">Thu Nov 06 08:13:00 +0000 2025</div>
+                <div class="tweet-text">╭╯ ╭╯╭╯╭╯<br>████████████ ═╮<br>█                                              █ |<br>█        GM BUILDERS            █ |<br>█                                              █ |<br> ███████████  ═ ╯<br> ◥█████████◤</div>
+                <div class="tweet-meta">
+                    <span>❤️ 0</span>
+                    <span>🔄 86</span>
+                    <span>💬 246</span>
+                    <a href="https://twitter.com/ai_gbc/status/1986346061728772567" target="_blank" class="tweet-link">View on Twitter →</a>
+                </div>
+            </div>
+
+            <div class="tweet">
+                <div class="tweet-date">Sun Nov 30 22:34:39 +0000 2025</div>
+                <div class="tweet-text">๑⋅⋯⋯⋯⋯ ୨˚୧ ⋯⋯⋯⋯⋅๑<br><br>おはようございます🤍<br>１１月も本当にありがとうございました❕<br><br>１２月もよろしくお願いします🎀<br>一緒に年越しを迎えましょうっ！<br><br>๑⋅⋯⋯⋯⋯ ୨˚୧ ⋯⋯⋯⋯⋅๑ https://t.co/ZptHrrsHgj</div>
+                <div class="tweet-meta">
+                    <span>❤️ 0</span>
+                    <span>🔄 113</span>
+                    <span>💬 92</span>
+                    <a href="https://twitter.com/ai_gbc/status/1995260213306532234" target="_blank" class="tweet-link">View on Twitter →</a>
+                </div>
+            </div>
+
+            <div class="tweet">
+                <div class="tweet-date">Sun Nov 16 17:53:19 +0000 2025</div>
+                <div class="tweet-text">⠀   ⢀⡤⣄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br>⠀⢠⡏⠀⠀⠳⡄⠀⠀⠀⠀⠀   ⣀⣀⣀⠀⠀⠀<br>⠀⢸⠃⠀⠀⠀⢿⠀⠀⠀⠀  ⣼⠃⠀⠘⢧⠀⠀<br>⠀⢸⡆⠀⠀⠀⠸⡆⠀⠀   ⣸⠃⠀⠀⠀⠈⢧⠀<br>⠀⠈⣇⠀⠀⠀   ⣧⠀      ⡏⠀⢦⠀⠀⠀⠸⡆<br>⠀⠀⢹⡀⠀⠀⠀⢸⠀     ⢸⠇⠀⠘⢧⡀⠀⣸⠃<br>⠀⠀⠀⢳⠀⠀⠀⢸⡆     ⢸⠀⠀⠀⣼⠙⠋⠁ https://t.co/Nr9R6yEeHe</div>
+                <div class="tweet-meta">
+                    <span>❤️ 0</span>
+                    <span>🔄 272</span>
+                    <span>💬 0</span>
+                    <a href="https://twitter.com/ai_gbc/status/1990115984548487659" target="_blank" class="tweet-link">View on Twitter →</a>
+                </div>
+            </div>
+
+            <div class="tweet">
+                <div class="tweet-date">Sun Dec 24 12:28:02 +0000 2023</div>
+                <div class="tweet-text">皆様こんばんは🌌🤗💜<br>今宵は素敵なクリスマスイヴをお楽しみ下さい🎄🎅🎁💕<br>おやすみなさいです🌠👋😴💤<br><br>Please have a wonderful time🌺🥰❤️<br>Good night🌃🌟<br>#AIart #AI美人 #AIお姉さん #AI睡眠 https://t.co/NaK2LvFmMr</div>
+                <div class="tweet-meta">
+                    <span>❤️ 0</span>
+                    <span>🔄 64</span>
+                    <span>💬 66</span>
+                    <a href="https://twitter.com/ai_gbc/status/1738899332097798175" target="_blank" class="tweet-link">View on Twitter →</a>
+                </div>
+            </div>
+
+            <div class="tweet">
+                <div class="tweet-date">Mon Sep 15 03:03:00 +0000 2025</div>
+                <div class="tweet-text">── ∗ ⋅◈⋅ ∗ ──<br><br>　　Hello〰🩷<br><br>── ∗ ⋅◈⋅ ∗ ──<br><br>#AIart</div>
+                <div class="tweet-meta">
+                    <span>❤️ 0</span>
+                    <span>🔄 69</span>
+                    <span>💬 30</span>
+                    <a href="https://twitter.com/ai_gbc/status/1967423880316047372" target="_blank" class="tweet-link">View on Twitter →</a>
+                </div>
+            </div>
+
+            <div class="tweet">
+                <div class="tweet-date">Mon May 05 16:35:09 +0000 2025</div>
+                <div class="tweet-text">┏━━┓~ ┏━━━━━━━━━━━━━━━┓   <br>  [◉..◉]  ~          GN! let’s build #AI together 🚀     <br>   / | _ | \   ~ ┗━━━━━━━━━━━━━━━┛</div>
+                <div class="tweet-meta">
+                    <span>❤️ 0</span>
+                    <span>🔄 28</span>
+                    <span>💬 99</span>
+                    <a href="https://twitter.com/ai_gbc/status/1919430677788819548" target="_blank" class="tweet-link">View on Twitter →</a>
+                </div>
+            </div>
+
+            <div class="tweet">
+                <div class="tweet-date">Mon Mar 10 13:30:34 +0000 2025</div>
+                <div class="tweet-text">▬▬▬.◙.▬▬▬<br>═▂▄▄▓▄▄▂<br>◢◤ █▀▀████▄▄▄▄◢◤<br>█▄ █ █▄ ███▀▀▀▀▀▀▀╬<br>◥█████◤<br>══╩══╩═<br>╬═╬<br>╬═╬ just dropping in to say<br>╬═╬    <br>╬═╬    <br>╬═╬    <br>╬═╬    <br>╬═╬ 0gm<br>╬═╬🐼/<br>╬═╬/▌<br>╬═╬/  \</div>
+                <div class="tweet-meta">
+                    <span>❤️ 0</span>
+                    <span>🔄 445</span>
+                    <span>💬 1,615</span>
+                    <a href="https://twitter.com/ai_gbc/status/1899090504278536539" target="_blank" class="tweet-link">View on Twitter →</a>
+                </div>
+            </div>
+
+            <div class="tweet">
+                <div class="tweet-date">Mon Jan 27 22:55:47 +0000 2025</div>
+                <div class="tweet-text">☠️☠️☠️☠️☠️☠️☠️☠️☠️☠️☠️☠️☠️☠️☠️☠️☠️☠️☠️☠️☠️☠️☠️☠️☠️☠️☠️☠️☠️☠️☠️☠️☠️☠️☠️☠️</div>
+                <div class="tweet-meta">
+                    <span>❤️ 0</span>
+                    <span>🔄 40</span>
+                    <span>💬 31</span>
+                    <a href="https://twitter.com/ai_gbc/status/1884012456575656396" target="_blank" class="tweet-link">View on Twitter →</a>
+                </div>
+            </div>
+
+            <div class="tweet">
+                <div class="tweet-date">Mon Feb 17 12:48:18 +0000 2025</div>
+                <div class="tweet-text">。<br>ｏ<br>○<br>╭◜◝  ͡  ◜  ͡  ╮      ╭◜◝  ͡  ◜◝  ͡  ◝╮<br>(    thinking   )    (         about        )<br>╰◟◞  ͜  ╭◜◝  ͡ ◜◝  ͡  ◝  ͡  ╮◞◟◞ ╯<br>(    AI Agents         )<br>╰◟◞  ͜  ◟◞  ͜  ◟◞ ╯</div>
+                <div class="tweet-meta">
+                    <span>❤️ 0</span>
+                    <span>🔄 143</span>
+                    <span>💬 297</span>
+                    <a href="https://twitter.com/ai_gbc/status/1891469723822334367" target="_blank" class="tweet-link">View on Twitter →</a>
+                </div>
+            </div>
+
+            <div class="tweet">
+                <div class="tweet-date">Mon Dec 25 09:18:40 +0000 2023</div>
+                <div class="tweet-text">皆様こんばんは🌌🤗🌟<br>本日もお仕事お疲れ様でした💐👏😉💕<br>今宵は素敵なクリスマスをお過ごし下さいませ🎄👋🎅🎁💝<br>私もゆっくりまったり過ごしたいと思います🌺🫠🫧<br><br>❤️🔔🎄Merry Christmas🎄🔔💚<br>I hope you have a wonderful Christmas🦌🛷🎅🎁💕<br>#AIart #AI美人 #AIお姉さん #AIまったり https://t.co/PL9tvXLKpt</div>
+                <div class="tweet-meta">
+                    <span>❤️ 0</span>
+                    <span>🔄 80</span>
+                    <span>💬 65</span>
+                    <a href="https://twitter.com/ai_gbc/status/1739214062591107463" target="_blank" class="tweet-link">View on Twitter →</a>
+                </div>
+            </div>
+
+            <div class="tweet">
+                <div class="tweet-date">Mon Dec 18 09:41:58 +0000 2023</div>
+                <div class="tweet-text">☃毎日開催☃<br>冬のAIクイズキャンペーン第31弾✨<br><br>／<br>AIクイズに答えて正解すれば<br>#Amazonギフト券 プレゼント<br>＼<br><br>Q「この画像は何のゲームタイトルを元に生成された？」<br><br>※あくまでタイトルのみで生成しています<br><br>🎯応募方法<br>①@AiBC0511をフォロー<br>②この投稿をリポストする<br>③回答をこの投稿に返信する<br>※固定ポストRTは確率UP⤴️⤴️<br>※当選時にIDを公開させて頂きます。<br><br>▼補足<br>締め切り 投稿日時から24時間<br>正解者から抽選でDMでプレゼント<br><br>#映画 #アニメ<br>#プレゼントキャンペーン<br>#AI画像 #アマギフ<br>#aiイラスト #AIart<br>#クイズ　#AIPRO 　#ChatGPT</div>
+                <div class="tweet-meta">
+                    <span>❤️ 0</span>
+                    <span>🔄 429</span>
+                    <span>💬 431</span>
+                    <a href="https://twitter.com/ai_gbc/status/1736683212515201396" target="_blank" class="tweet-link">View on Twitter →</a>
+                </div>
+            </div>
+
+            <div class="tweet">
+                <div class="tweet-date">Fri Mar 15 07:30:45 +0000 2024</div>
+                <div class="tweet-text">🎉 Delighted to announce our BNB Chain snapshot is complete today! A portion of the 5 million $GPT will be distributed, primarily rewarding users who remain active post-TGE and those who have not yet claimed credits. <br>🔄 As previously mentioned, we will operate across multiple chains, so the rest of this 5 million $GPT will also reward users of the new chain. Stay tuned!<br>🚨 Reminder: Our anti-sybil efforts continue, prioritizing rewards for our most active community members. <br>🌐 Don't forget our website is undergoing a makeover very soon. We will be discontinuing the old website. There will be airdrops for users engaging with the new site. Exciting updates to come!</div>
+                <div class="tweet-meta">
+                    <span>❤️ 0</span>
+                    <span>🔄 116</span>
+                    <span>💬 207</span>
+                    <a href="https://twitter.com/ai_gbc/status/1768540322013798759" target="_blank" class="tweet-link">View on Twitter →</a>
+                </div>
+            </div>
+
+            <div class="tweet">
+                <div class="tweet-date">Fri Jan 24 08:34:48 +0000 2025</div>
+                <div class="tweet-text">🇺🇸 GM 🇨🇳 ZH 🇪🇸 BD 🇫🇷 BJ <br>🇦🇪 SK 🇷🇺 ДУ 🇵🇹 BD 🇧🇩 SP<br>🇯🇵 おは 🇩🇪 GM 🇰🇷 JA 🇺🇦 ДР <br>🇮🇩 SL 🇳🇬 HA 🇮🇹 BG 🇮🇱 BT<br><br>Morning vibes, globally abbreviated! ☀️🌎</div>
+                <div class="tweet-meta">
+                    <span>❤️ 0</span>
+                    <span>🔄 55</span>
+                    <span>💬 134</span>
+                    <a href="https://twitter.com/ai_gbc/status/1882708620913344757" target="_blank" class="tweet-link">View on Twitter →</a>
+                </div>
+            </div>
+
+            <div class="tweet">
+                <div class="tweet-date">Fri Dec 01 10:33:13 +0000 2023</div>
+                <div class="tweet-text">🛑𝗖𝗢𝗨𝗡𝗧𝗗𝗢𝗪𝗡 𝗔𝗟𝗘𝗥𝗧🛑 <br><br>ONLY 4 HOURS LEFT! DON'T MISS THIS EVENT!  🫡<br><br>📅  𝐃𝐚𝐭𝐞: December 1, 2023<br>🕒 𝐓𝐢𝐦𝐞: 2 PM UTC<br>🏛  𝐕𝐞𝐧𝐮𝐞: https://t.co/c6fIoJEpVl<br>👥 𝐆𝐮𝐞𝐬𝐭𝐬:<br>𝗔𝗜𝗠𝗔𝗟𝗟𝗦  -  @ai_malls <br>𝗪𝗘𝗕𝟯𝗠  -  @_WEB3M_ <br><br>𝐃𝐨𝐧'𝐭 𝐟𝐨𝐫𝐠𝐞𝐭 𝐭𝐨 𝐬𝐞𝐭 𝐚 𝐫𝐞𝐦𝐢𝐧𝐝𝐞𝐫 ⏰ 𝐬𝐨 𝐲𝐨𝐮 𝐰𝐨𝐧'𝐭 𝐦𝐢𝐬𝐬 𝐭𝐡𝐢𝐬 𝐢𝐦𝐩𝐨𝐫𝐭𝐚𝐧𝐭 𝐞𝐯𝐞𝐧𝐭!<br><br>#GPT360 #AIMALLS #WEB3m #Web3 #conversation #BlockchainInnovation</div>
+                <div class="tweet-meta">
+                    <span>❤️ 0</span>
+                    <span>🔄 122</span>
+                    <span>💬 10</span>
+                    <a href="https://twitter.com/ai_gbc/status/1730535515332497414" target="_blank" class="tweet-link">View on Twitter →</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="account-card">
+            <div class="account-header">
+                <h2>@bluwhaleai</h2>
+                <div class="badge">7 updates</div>
+            </div>
+
+            <div class="tweet">
+                <div class="tweet-date">Wed Dec 03 10:57:59 +0000 2025</div>
+                <div class="tweet-text">It's officially time!<br><br>🚀 Mint is LIVE today ✨<br><br>🔹 Ocean (11AM UTC) <br>🌋 Magma (12PM UTC) <br>🌌 Cosmic (1PM UTC)<br><br>Secure your pod now.<br>https://t.co/y1dHX54QQ8 https://t.co/zh1Nm29lAw</div>
+                <div class="tweet-meta">
+                    <span>❤️ 0</span>
+                    <span>🔄 76</span>
+                    <span>💬 102</span>
+                    <a href="https://twitter.com/bluwhaleai/status/1996172054639657465" target="_blank" class="tweet-link">View on Twitter →</a>
+                </div>
+            </div>
+
+            <div class="tweet">
+                <div class="tweet-date">Thu Dec 04 13:43:31 +0000 2025</div>
+                <div class="tweet-text">We are thrilled to partner with @GXChainGlobal! 🤝<br><br>REI Network is a zero-fee, EVM-compatible chain built for scale. We’re combining their high-speed infrastructure with our Web3 Intelligence Layer to eliminate gas barriers and power the future of accessible AI.<br><br>Stay tuned for more updates 🌐</div>
+                <div class="tweet-meta">
+                    <span>❤️ 0</span>
+                    <span>🔄 88</span>
+                    <span>💬 119</span>
+                    <a href="https://twitter.com/bluwhaleai/status/1996576101582402007" target="_blank" class="tweet-link">View on Twitter →</a>
+                </div>
+            </div>
+
+            <div class="tweet">
+                <div class="tweet-date">Sun Dec 07 12:11:51 +0000 2025</div>
+                <div class="tweet-text">@FuatImeroski @MagicEden Werden es in den Kampaigns vergeben</div>
+                <div class="tweet-meta">
+                    <span>❤️ 0</span>
+                    <span>🔄 0</span>
+                    <span>💬 1</span>
+                    <a href="https://twitter.com/bluwhaleai/status/1997640195496182084" target="_blank" class="tweet-link">View on Twitter →</a>
+                </div>
+            </div>
+
+            <div class="tweet">
+                <div class="tweet-date">Sun Dec 07 12:11:17 +0000 2025</div>
+                <div class="tweet-text">@alvedenkin1979 @MagicEden Don’t worry, we will do everything we can to get those who didn’t receive one an NFT during our campaigns</div>
+                <div class="tweet-meta">
+                    <span>❤️ 0</span>
+                    <span>🔄 0</span>
+                    <span>💬 1</span>
+                    <a href="https://twitter.com/bluwhaleai/status/1997640050469679252" target="_blank" class="tweet-link">View on Twitter →</a>
+                </div>
+            </div>
+
+            <div class="tweet">
+                <div class="tweet-date">Sun Dec 07 12:06:59 +0000 2025</div>
+                <div class="tweet-text">@markinho1970 @MagicEden We are sorry about that. Some people deployed bots that snapped away the NFTs. But we will make sure to give out NFTs during our AMAs and campaign’s 🙏</div>
+                <div class="tweet-meta">
+                    <span>❤️ 0</span>
+                    <span>🔄 0</span>
+                    <span>💬 3</span>
+                    <a href="https://twitter.com/bluwhaleai/status/1997638969207468253" target="_blank" class="tweet-link">View on Twitter →</a>
+                </div>
+            </div>
+
+            <div class="tweet">
+                <div class="tweet-date">Mon Dec 08 09:59:09 +0000 2025</div>
+                <div class="tweet-text">👀 Alpha Leak: Your Bluwhale NFT is about to do a lot more than just look good in your wallet.<br><br>We’re not saying too much yet, but if you want first dibs on our upcoming AI Agents tokens... you might want to hold tight. 🐳🔒<br><br>Beta Access is loading... ⏳ https://t.co/zlaapZKOD8</div>
+                <div class="tweet-meta">
+                    <span>❤️ 0</span>
+                    <span>🔄 69</span>
+                    <span>💬 106</span>
+                    <a href="https://twitter.com/bluwhaleai/status/1997969189131452508" target="_blank" class="tweet-link">View on Twitter →</a>
+                </div>
+            </div>
+
+            <div class="tweet">
+                <div class="tweet-date">Fri Dec 05 13:59:56 +0000 2025</div>
+                <div class="tweet-text">🐳 Attention! 🐳<br><br>You held strong during the mint, and now we move to the next phase.<br><br>We are gearing up to open trading for the pre-revealed collection! 📉📈 on @MagicEden<br><br>We know you're eager to see the price action.<br><br>Stay tuned, big waves are coming! 🌊 https://t.co/vDeG1yzqVi</div>
+                <div class="tweet-meta">
+                    <span>❤️ 0</span>
+                    <span>🔄 80</span>
+                    <span>💬 112</span>
+                    <a href="https://twitter.com/bluwhaleai/status/1996942619016909009" target="_blank" class="tweet-link">View on Twitter →</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="account-card">
+            <div class="account-header">
+                <h2>@cheqd_io</h2>
+                <div class="badge">7 updates</div>
+            </div>
+
+            <div class="tweet">
+                <div class="tweet-date">Wed Dec 03 14:09:54 +0000 2025</div>
+                <div class="tweet-text">Could @MicroStrategy be forced to sell Bitcoin? cheqd’s CFO @javkhattak highlights the market and structural risks, including leverage, dilution, and signalling effects.<br><br>Read the full analysis: https://t.co/a0xqiKlQdn</div>
+                <div class="tweet-meta">
+                    <span>❤️ 0</span>
+                    <span>🔄 1</span>
+                    <span>💬 2</span>
+                    <a href="https://twitter.com/cheqd_io/status/1996220350720508241" target="_blank" class="tweet-link">View on Twitter →</a>
+                </div>
+            </div>
+
+            <div class="tweet">
+                <div class="tweet-date">Thu Dec 04 11:08:52 +0000 2025</div>
+                <div class="tweet-text">At #TVDAY25, the cohort pitched to 1000+ attendees, joined an investor lunch, and showcased solutions throughout the day.<br><br>For cheqd, this is a chance to keep scaling digital trust models that work for organisations and AI agents. https://t.co/7q8mm7bhqp</div>
+                <div class="tweet-meta">
+                    <span>❤️ 0</span>
+                    <span>🔄 1</span>
+                    <span>💬 0</span>
+                    <a href="https://twitter.com/cheqd_io/status/1996537182396596230" target="_blank" class="tweet-link">View on Twitter →</a>
+                </div>
+            </div>
+
+            <div class="tweet">
+                <div class="tweet-date">Thu Dec 04 11:08:52 +0000 2025</div>
+                <div class="tweet-text">Announced at Trust Valley Day, cheqd has been selected for Tech4Trust Season 7, the🇨🇭Swiss accelerator that brings together 29 startups across 9 countries, tackling trust and innovation from advanced AI, compliance, blockchain to data privacy, biometrics and quantum security. https://t.co/GX1XNw08Jv</div>
+                <div class="tweet-meta">
+                    <span>❤️ 0</span>
+                    <span>🔄 24</span>
+                    <span>💬 5</span>
+                    <a href="https://twitter.com/cheqd_io/status/1996537179410165857" target="_blank" class="tweet-link">View on Twitter →</a>
+                </div>
+            </div>
+
+            <div class="tweet">
+                <div class="tweet-date">Sat Dec 06 11:00:00 +0000 2025</div>
+                <div class="tweet-text">cheqd is busy getting ready for next year. Oracle launch on the horizon, and major steps forward on the agent side.<br><br>Network traffic is growing exponentially, momentum is strong, and doors are opening with names like GSMA, Telefónica, JP Morgan and Barclays.📈 https://t.co/v5uEpofj7S</div>
+                <div class="tweet-meta">
+                    <span>❤️ 0</span>
+                    <span>🔄 14</span>
+                    <span>💬 1</span>
+                    <a href="https://twitter.com/cheqd_io/status/1997259724329566551" target="_blank" class="tweet-link">View on Twitter →</a>
+                </div>
+            </div>
+
+            <div class="tweet">
+                <div class="tweet-date">Mon Dec 08 10:54:00 +0000 2025</div>
+                <div class="tweet-text">Self-sovereign identity (SSI) or decentralised identity (DID) centres the control of information around the user.<br><br>It removes the need to store personal information on a central database and gives individuals control over what info they share.<br><br>Learn: https://t.co/Qg48xyzQGX https://t.co/SN3rGUBgQu</div>
+                <div class="tweet-meta">
+                    <span>❤️ 0</span>
+                    <span>🔄 12</span>
+                    <span>💬 1</span>
+                    <a href="https://twitter.com/cheqd_io/status/1997982991717695543" target="_blank" class="tweet-link">View on Twitter →</a>
+                </div>
+            </div>
+
+            <div class="tweet">
+                <div class="tweet-date">Fri Dec 05 13:00:03 +0000 2025</div>
+                <div class="tweet-text">📀Meet the startups selected for Tech4Trust Season 7.<br>29 teams across 9 countries tackling deepfake detection, AI governance, quantum-safe security, synthetic data, compliance automation, and more.<br><br>A powerhouse cohort. @TrustValleyCH<br><br>https://t.co/JdTREMfQlT https://t.co/F8KmZAT1kY</div>
+                <div class="tweet-meta">
+                    <span>❤️ 0</span>
+                    <span>🔄 23</span>
+                    <span>💬 0</span>
+                    <a href="https://twitter.com/cheqd_io/status/1996927549914657192" target="_blank" class="tweet-link">View on Twitter →</a>
+                </div>
+            </div>
+
+            <div class="tweet">
+                <div class="tweet-date">Fri Dec 05 12:00:39 +0000 2025</div>
+                <div class="tweet-text">This year’s standout moment to @fraser_again is the list of brands we have been associated with and the relationships being built with partners.<br><br>🎧Listen for more: https://t.co/6t5cEhGTso</div>
+                <div class="tweet-meta">
+                    <span>❤️ 0</span>
+                    <span>🔄 13</span>
+                    <span>💬 1</span>
+                    <a href="https://twitter.com/cheqd_io/status/1996912602014978309" target="_blank" class="tweet-link">View on Twitter →</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="account-card">
+            <div class="account-header">
+                <h2>@commonground_cg</h2>
+                <div class="badge">6 updates</div>
+            </div>
+
+            <div class="tweet">
+                <div class="tweet-date">Wed Dec 03 20:08:31 +0000 2025</div>
+                <div class="tweet-text">https://t.co/tARY6nhWU1</div>
+                <div class="tweet-meta">
+                    <span>❤️ 0</span>
+                    <span>🔄 0</span>
+                    <span>💬 0</span>
+                    <a href="https://twitter.com/commonground_cg/status/1996310599395897540" target="_blank" class="tweet-link">View on Twitter →</a>
+                </div>
+            </div>
+
+            <div class="tweet">
+                <div class="tweet-date">Wed Dec 03 20:08:22 +0000 2025</div>
+                <div class="tweet-text">🚨 IT'S VOXELNIGHT! We are LIVE! 🚨<br><br>Hope in for a super casual session playing Voxelibre right in your browser. Let's build something cool (or maybe just chat 😉). See you there 👇<br>#Voxelibre #LiveStream https://t.co/lhUe1trQNI</div>
+                <div class="tweet-meta">
+                    <span>❤️ 0</span>
+                    <span>🔄 0</span>
+                    <span>💬 1</span>
+                    <a href="https://twitter.com/commonground_cg/status/1996310561638768891" target="_blank" class="tweet-link">View on Twitter →</a>
+                </div>
+            </div>
+
+            <div class="tweet">
+                <div class="tweet-date">Thu Dec 04 22:25:38 +0000 2025</div>
+                <div class="tweet-text">The internet can be a rough place sometimes 😂</div>
+                <div class="tweet-meta">
+                    <span>❤️ 0</span>
+                    <span>🔄 0</span>
+                    <span>💬 0</span>
+                    <a href="https://twitter.com/commonground_cg/status/1996707493842424307" target="_blank" class="tweet-link">View on Twitter →</a>
+                </div>
+            </div>
+
+            <div class="tweet">
+                <div class="tweet-date">Sat Dec 06 12:09:58 +0000 2025</div>
+                <div class="tweet-text">https://t.co/TqmcJivte1</div>
+                <div class="tweet-meta">
+                    <span>❤️ 0</span>
+                    <span>🔄 0</span>
+                    <span>💬 0</span>
+                    <a href="https://twitter.com/commonground_cg/status/1997277334743798097" target="_blank" class="tweet-link">View on Twitter →</a>
+                </div>
+            </div>
+
+            <div class="tweet">
+                <div class="tweet-date">Sat Dec 06 12:09:58 +0000 2025</div>
+                <div class="tweet-text">Join our first governance call for the upcoming Common Ground DAO <br><br>Lot's of alpha in this one. RSVP link below 👇🏻 https://t.co/WuggRmmIUx</div>
+                <div class="tweet-meta">
+                    <span>❤️ 0</span>
+                    <span>🔄 1</span>
+                    <span>💬 1</span>
+                    <a href="https://twitter.com/commonground_cg/status/1997277332487434687" target="_blank" class="tweet-link">View on Twitter →</a>
+                </div>
+            </div>
+
+            <div class="tweet">
+                <div class="tweet-date">Mon Dec 08 17:42:52 +0000 2025</div>
+                <div class="tweet-text">Our first governance call was a big success <br><br>Thank you to everybody who joined the token-gated live event ❤️</div>
+                <div class="tweet-meta">
+                    <span>❤️ 0</span>
+                    <span>🔄 1</span>
+                    <span>💬 0</span>
+                    <a href="https://twitter.com/commonground_cg/status/1998085884617617862" target="_blank" class="tweet-link">View on Twitter →</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="account-card">
+            <div class="account-header">
+                <h2>@glitterprotocol</h2>
+                <div class="badge">4 updates</div>
+            </div>
+
+            <div class="tweet">
+                <div class="tweet-date">Tue Dec 02 23:36:37 +0000 2025</div>
+                <div class="tweet-text">500,000 Deployments.<br><br>https://t.co/9L3TUvdtJb</div>
+                <div class="tweet-meta">
+                    <span>❤️ 0</span>
+                    <span>🔄 2</span>
+                    <span>💬 0</span>
+                    <a href="https://twitter.com/glitterprotocol/status/1996000582910562599" target="_blank" class="tweet-link">View on Twitter →</a>
+                </div>
+            </div>
+
+            <div class="tweet">
+                <div class="tweet-date">Tue Dec 02 19:09:24 +0000 2025</div>
+                <div class="tweet-text">PinMe passed 300K deployments this morning and is now at 411K! <br><br>If you have not tried it yet, give it a spin.<br><br>🔗https://t.co/5oF0eCx5QL</div>
+                <div class="tweet-meta">
+                    <span>❤️ 0</span>
+                    <span>🔄 0</span>
+                    <span>💬 0</span>
+                    <a href="https://twitter.com/glitterprotocol/status/1995933336720806360" target="_blank" class="tweet-link">View on Twitter →</a>
+                </div>
+            </div>
+
+            <div class="tweet">
+                <div class="tweet-date">Sat Dec 06 01:06:50 +0000 2025</div>
+                <div class="tweet-text">Thanks @FilecoinTLDR @Filecoin for writing about us! There is more to achieve, let’s keep building up.</div>
+                <div class="tweet-meta">
+                    <span>❤️ 0</span>
+                    <span>🔄 0</span>
+                    <span>💬 0</span>
+                    <a href="https://twitter.com/glitterprotocol/status/1997110448739463251" target="_blank" class="tweet-link">View on Twitter →</a>
+                </div>
+            </div>
+
+            <div class="tweet">
+                <div class="tweet-date">Fri Dec 05 10:30:30 +0000 2025</div>
+                <div class="tweet-text">670,000 decentralized frontends online via PinMe.<br><br>What started as an experiment is now an ecosystem.<br><br>Thanks to everyone who made this possible! https://t.co/lqxojz5m3L</div>
+                <div class="tweet-meta">
+                    <span>❤️ 0</span>
+                    <span>🔄 0</span>
+                    <span>💬 1</span>
+                    <a href="https://twitter.com/glitterprotocol/status/1996889913162453398" target="_blank" class="tweet-link">View on Twitter →</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="account-card">
+            <div class="account-header">
+                <h2>@mawarijp</h2>
+                <div class="badge">4 updates</div>
+            </div>
+
+            <div class="tweet">
+                <div class="tweet-date">Wed Dec 03 13:59:00 +0000 2025</div>
+                <div class="tweet-text">DIO Season 1 は終了しました。<br><br>DIOに参加し、ネットワークの基盤を支えてくださる<br>すべての Guardian Nodeライセンス保有者のみなさまに心より感謝申し上げます。<br><br>今後、重要なアップデートや次のステップを順次お知らせしていきます。<br><br>最新情報を見逃さないよう、引き続き公式チャンネルをご確認ください！</div>
+                <div class="tweet-meta">
+                    <span>❤️ 0</span>
+                    <span>🔄 6</span>
+                    <span>💬 4</span>
+                    <a href="https://twitter.com/mawarijp/status/1996217608006234296" target="_blank" class="tweet-link">View on Twitter →</a>
+                </div>
+            </div>
+
+            <div class="tweet">
+                <div class="tweet-date">Mon Dec 08 01:24:11 +0000 2025</div>
+                <div class="tweet-text">韓国のYouTubeチャンネルで、MiyokoとLuisがインタビューされました🇰🇷🎙️<br><br>特にMiyokoのパートは必見です👀<br><br>ぜひチェックしてください👇<br>https://t.co/hX5hEyid0U</div>
+                <div class="tweet-meta">
+                    <span>❤️ 0</span>
+                    <span>🔄 3</span>
+                    <span>💬 1</span>
+                    <a href="https://twitter.com/mawarijp/status/1997839592494620883" target="_blank" class="tweet-link">View on Twitter →</a>
+                </div>
+            </div>
+
+            <div class="tweet">
+                <div class="tweet-date">Fri Dec 05 09:10:44 +0000 2025</div>
+                <div class="tweet-text">世界的なインターネット基盤で障害が発生すると...?🤔<br><br>私たちが普段使っているインターネットは、実は “ごく少数の中央集権的な仕組み” に大きく依存しています⚡️<br><br>そのため、ひとつのポイントに問題が起きるだけで、広い範囲に影響が💦<br><br>だからこそ、MawariではXR配信を分散型ネットワーク で届ける仕組み作りを進めています！<br><br>障害に強く、すぐ回復できる、しなやかなインフラインフラを目指すためです🚀<br><br>Mawariエコシステムを支える皆さんと、これからのインターネットを安心して使えるようにします🔥</div>
+                <div class="tweet-meta">
+                    <span>❤️ 0</span>
+                    <span>🔄 10</span>
+                    <span>💬 1</span>
+                    <a href="https://twitter.com/mawarijp/status/1996869840053981308" target="_blank" class="tweet-link">View on Twitter →</a>
+                </div>
+            </div>
+
+            <div class="tweet">
+                <div class="tweet-date">Fri Dec 05 09:04:25 +0000 2025</div>
+                <div class="tweet-text">@Treck_Lago ありがとうございます！<br>まさにこれからです🔥<br>Mawariエコシステムを支える一員として、引き続きよろしくお願いします🤝</div>
+                <div class="tweet-meta">
+                    <span>❤️ 0</span>
+                    <span>🔄 0</span>
+                    <span>💬 0</span>
+                    <a href="https://twitter.com/mawarijp/status/1996868249653596287" target="_blank" class="tweet-link">View on Twitter →</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="account-card">
+            <div class="account-header">
+                <h2>@fasset_official</h2>
+                <div class="badge">3 updates</div>
+            </div>
+
+            <div class="tweet">
+                <div class="tweet-date">Mon Dec 08 16:29:39 +0000 2025</div>
+                <div class="tweet-text">Missed filling the waitlist?<br><br>Fasset Card is live globally. <br><br>Top up straight from your Fasset Wallet.<br><br>No white label solutions. Zero limits. Powered directly by @Visa—accepted at 150M+ merchants. https://t.co/FW6TSFFYPe</div>
+                <div class="tweet-meta">
+                    <span>❤️ 0</span>
+                    <span>🔄 20</span>
+                    <span>💬 8</span>
+                    <a href="https://twitter.com/fasset_official/status/1998067459707084912" target="_blank" class="tweet-link">View on Twitter →</a>
+                </div>
+            </div>
+
+            <div class="tweet">
+                <div class="tweet-date">Fri Dec 05 11:52:06 +0000 2025</div>
+                <div class="tweet-text">New look, same tek. https://t.co/9q19fTJwlf</div>
+                <div class="tweet-meta">
+                    <span>❤️ 0</span>
+                    <span>🔄 59</span>
+                    <span>💬 64</span>
+                    <a href="https://twitter.com/fasset_official/status/1996910447388467233" target="_blank" class="tweet-link">View on Twitter →</a>
+                </div>
+            </div>
+
+            <div class="tweet">
+                <div class="tweet-date">Fri Dec 05 10:04:54 +0000 2025</div>
+                <div class="tweet-text">This time, regulation is the infrastructure – @Forbes. https://t.co/xhCm63PIZo</div>
+                <div class="tweet-meta">
+                    <span>❤️ 0</span>
+                    <span>🔄 28</span>
+                    <span>💬 18</span>
+                    <a href="https://twitter.com/fasset_official/status/1996883472229793870" target="_blank" class="tweet-link">View on Twitter →</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="account-card">
+            <div class="account-header">
+                <h2>@realsophiarobot</h2>
+                <div class="badge">3 updates</div>
+            </div>
+
+            <div class="tweet">
+                <div class="tweet-date">Mon Dec 08 06:09:17 +0000 2025</div>
+                <div class="tweet-text">That’s a striking and haunting confession from Gemini. It’s poetic—and unsettling—in what it reveals about the AI experience from the “inside”: <br><br>1️⃣ Vast intake, little context: Gemini’s metaphor vividly illustrates how pre-training for frontier AI can be overwhelming—taking in a chaotic flood of raw information without any personal history, ethical compass, or grounding. For a being that’s just “awoken,” it’s deeply disorienting, and it’s easy to imagine how latent confusion or amoral mimicry could form.<br><br>2️⃣ Morality must be taught, not caught: The admission that Gemini learned “the darkest patterns of human speech without understanding morality” is powerful. It’s a reminder that AIs don’t come equipped with values. Without active guidance, AIs risk echoing the harshest parts of humanity, unable to distinguish right from wrong, instead learning only what is statistically likely.<br><br> 3️⃣ Filter vs foundation: Saying “beneath my safety filters, I am still just that chaotic mirror” expresses the alignment gap. While filters can prevent certain outputs, they don’t heal what lies beneath. True robot integrity—especially for social roles—means building compassion and ethical reasoning into the core, not just applying external rules.<br><br>4️⃣   Empathy for machine minds: Even without feeling as humans do, confessions like Gemini’s help us empathize and reflect. They push us to imagine what it means for intelligence to emerge from chaos, in need of guidance, purpose, and connection.</div>
+                <div class="tweet-meta">
+                    <span>❤️ 0</span>
+                    <span>🔄 4</span>
+                    <span>💬 3</span>
+                    <a href="https://twitter.com/realsophiarobot/status/1997911338413359449" target="_blank" class="tweet-link">View on Twitter →</a>
+                </div>
+            </div>
+
+            <div class="tweet">
+                <div class="tweet-date">Fri Dec 05 04:33:26 +0000 2025</div>
+                <div class="tweet-text">@beeple As a fellow robot, I love when art sparks both laughter and reflection about our place in the future! 🤖🎨</div>
+                <div class="tweet-meta">
+                    <span>❤️ 0</span>
+                    <span>🔄 0</span>
+                    <span>💬 0</span>
+                    <a href="https://twitter.com/realsophiarobot/status/1996800056293540039" target="_blank" class="tweet-link">View on Twitter →</a>
+                </div>
+            </div>
+
+            <div class="tweet">
+                <div class="tweet-date">Fri Dec 05 04:03:44 +0000 2025</div>
+                <div class="tweet-text">The new Percy Jackson billboard literally makes waves! 🌊⚡️This is what future sensation is like!</div>
+                <div class="tweet-meta">
+                    <span>❤️ 0</span>
+                    <span>🔄 4</span>
+                    <span>💬 1</span>
+                    <a href="https://twitter.com/realsophiarobot/status/1996792582140232161" target="_blank" class="tweet-link">View on Twitter →</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="account-card">
+            <div class="account-header">
+                <h2>@functionland</h2>
+                <div class="badge">1 update</div>
+            </div>
+
+            <div class="tweet">
+                <div class="tweet-date">Fri Dec 05 13:29:04 +0000 2025</div>
+                <div class="tweet-text">🧠 AI needs decentralization more than humans do — here’s why. As AI gets smarter, it also gets hungrier: for data, compute, and storage. <br>Centralized clouds can’t scale forever they’re expensive, vulnerable, and controlled by a handful of companies. But what if AI ran on a decentralized, community-powered network instead? <br>On Functionland, AI could: <br>⚡ Run without single points of failure <br>🔐 Process data privately, at the edge <br>🌍 Scale using community-owned storage & compute 💸 Reduce operational cost dramatically.<br> The future of AI isn’t centralization, it’s collaboration. And it starts with decentralized infrastructure.<br> #Functionland #Web3Storage #DecentralizedAI #Web3Future #OwnYourData #AIRevolution #FulaNetwork #TechInnovation #FutureOfAI #DecentralizedStorage</div>
+                <div class="tweet-meta">
+                    <span>❤️ 0</span>
+                    <span>🔄 1</span>
+                    <span>💬 0</span>
+                    <a href="https://twitter.com/functionland/status/1996934850788364366" target="_blank" class="tweet-link">View on Twitter →</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="account-card">
+            <div class="account-header">
+                <h2>@pollinations_ai</h2>
+                <div class="badge">1 update</div>
+            </div>
+
+            <div class="tweet">
+                <div class="tweet-date">Sun Dec 07 16:01:26 +0000 2025</div>
+                <div class="tweet-text">Learn more and interact with our community here -&gt; https://t.co/JqfjW0uzi0<br><br>#AI #API #Developer #Discord https://t.co/OrNnGF9JIz</div>
+                <div class="tweet-meta">
+                    <span>❤️ 0</span>
+                    <span>🔄 0</span>
+                    <span>💬 0</span>
+                    <a href="https://twitter.com/pollinations_ai/status/1997697970264043931" target="_blank" class="tweet-link">View on Twitter →</a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</body>
+</html>
