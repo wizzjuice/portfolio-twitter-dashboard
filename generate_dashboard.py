@@ -138,8 +138,8 @@ def generate_html(data, since_time, until_time):
         
         body {{
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            background: #f8f9fa;
-            color: #1a1a1a;
+            background: #101114;
+            color: #eceef1;
             line-height: 1.6;
         }}
         
@@ -157,7 +157,7 @@ def generate_html(data, since_time, until_time):
         .header h1 {{
             font-size: 2.5em;
             margin-bottom: 10px;
-            color: #1a1a1a;
+            color: #eceef1;
         }}
         
         .header .date-range {{
@@ -208,7 +208,7 @@ def generate_html(data, since_time, until_time):
         
         .account-header h2 {{
             font-size: 1.5em;
-            color: #1a1a1a;
+            color: #eceef1;
         }}
         
         .account-header .badge {{
